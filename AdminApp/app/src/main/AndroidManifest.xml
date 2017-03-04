@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rohithreddyg.adminapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="Home"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".SportsComplaints"
+            android:label="SportsComplaints"
+            />
+        <activity
+            android:name=".Complaint"
+            android:label="Complaint"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".AcademicComplaints"
+            android:label="Academics Complaints"/>
+        <activity android:name=".CulturalComplaints"
+            android:label="Cultural Complaints "/>
+        <activity android:name=".HostelComplaints"
+            android:label="Hostel Complaints"/>
+        <activity android:name=".MessComplaints"
+            android:label="Mess Complaints"/>
+        <activity android:name=".HComplaints"
+            android:label="Complaint"/>
+        <activity android:name=".SignInActivity">
+        <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter></activity>
+        <activity android:name=".SignUpActivity"
+            android:label="Sign Up"/>
+        <activity android:name=".ResetPasswordActivity"
+            android:label="Reset Password"/>
+
+    </application>
+
+</manifest>
